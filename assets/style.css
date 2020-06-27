@@ -1,0 +1,31 @@
+.container{
+  padding: 0vh 3vh 0vh 3vh;
+}
+
+#home_pic{
+  height: 500px;
+  width: auto;
+}
+
+#home_intro{
+  margin-top: 50%;
+  margin-left: 10%;
+}
+
+#intro{
+  background-image: linear-gradient(to bottom right, #b1b0fA, #8280D7); 
+}
+
+#intro_header{
+  color: #FAFAFA;
+}
+
+.navbar{
+  background-color: #B1B0FB ;
+}
+
+/* 
+  + Light purple : #B1B0FB
+  + Dark Purple : #8280D7
+  + White : #FAFAFA
+*/
