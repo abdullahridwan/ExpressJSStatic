@@ -20,12 +20,60 @@
   color: #FAFAFA;
 }
 
-.navbar{
-  background-color: #B1B0FB ;
+#text-to-be{
+  padding-top: 15%;
+  height: 300px;
+  width: 100%;
 }
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 300px; /* only if you want fixed height */
+  }
+
+ h2,p,h1{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;  
+ }
+
 
 /* 
   + Light purple : #B1B0FB
   + Dark Purple : #8280D7
   + White : #FAFAFA
 */
+
+
+
+//Text Styles 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+$font-sans: 'Open Sans', sans-serif;
+
+//Colors
+$black: #34435E;
+$white: #ffffff;
+
+body {
+  font-family: $font-sans;
+  margin: 0;
+  padding: 0 4em;
+}
+
+main {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+
+p {
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+  color: black;
+}
