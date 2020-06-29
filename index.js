@@ -43,19 +43,9 @@ app.get("/item/:id", (request, response) => {
 });
 
 
-app.post("/newitem", (request, response) => {
-  response.send("a post request with /newItem route on port")
-});
 
-//put updates just like in a hashmap
-app.put("/item", (request, response) => {
-  response.send("a put request with /newItem route on port")
-});
 
-//if you want to delete data on system
-app.delete("/item", (request, response) => {
-  response.send("a delete respone on port: " + PORT);
-});
+
 
 
 app.route("/item")
